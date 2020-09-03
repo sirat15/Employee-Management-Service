@@ -18,8 +18,8 @@ class EmployeeSerializer(serializers.ModelSerializer):
 
 
 
-#class TeamLeaderSerializer(serializers.ModelSerializer):
-#    class Meta:
-#        model = TeamLeader
-#        fields = '__all__'        
+'''class TeamLeaderSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = TeamLeader
+        fields = '__all__'        '''
 

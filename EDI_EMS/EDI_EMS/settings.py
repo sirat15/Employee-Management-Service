@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'EDI_EMS.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'restfulapiDB',
+        'NAME': 'EmployeeDB',
         'USER': 'postgres',
         'PASSWORD': 'Penciltip123#',
         'HOST': 'localhost'
