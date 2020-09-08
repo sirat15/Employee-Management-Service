@@ -35,15 +35,6 @@ class Employee(models.Model):
     def __str__(self):
         return self.fullname    
 
-    
-'''class Team_Leader(models.Model):
-    TeamName = models.ForeignKey('Team', on_delete=models.CASCADE)
-    Team_Leader = models.ForeignKey(Employee, on_delete=models.CASCADE)
-    TL_salary = models.FloatField(default = 10)
 
-    def Team_leader_salary(self):
-        self.TL_salary = Employee.objects.get('salary') * 1.1
-        self.save()
-        return self.TL_salary'''
 
 

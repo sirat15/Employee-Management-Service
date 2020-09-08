@@ -7,7 +7,6 @@ router = routers.DefaultRouter()
 #how to fetch headers in router
 #header which is accessToken = something
 router.register('employee',EmployeeViewset)
-
 router.register('team',TeamViewset)
 router.register('workarr',WorkArrViewset)
 
